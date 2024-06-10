@@ -192,12 +192,12 @@
                     </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <a href="#" class="dropdown-item">Status</a>
+                    <!-- <a href="#" class="dropdown-item">Status</a>
                     <a href="./profile.html" class="dropdown-item">Profile</a>
                     <a href="#" class="dropdown-item">Feedback</a>
                     <div class="dropdown-divider"></div>
-                    <a href="./settings.html" class="dropdown-item">Settings</a>
-                    <a href="./sign-in.html" class="dropdown-item">Logout</a>
+                    <a href="./settings.html" class="dropdown-item">Settings</a> -->
+                    <a href="/proseslogoutadmin" class="dropdown-item">Logout</a>
                 </div>
             </div>
         </div>
@@ -253,18 +253,18 @@
                                     </a>
                                 @endrole
                                 @role('administrator', 'user')
-                                    <a class="dropdown-item {{ request()->is(['departemen']) ? 'active' : '' }}"
+                                    <!-- <a class="dropdown-item {{ request()->is(['departemen']) ? 'active' : '' }}"
                                         href="/departemen">
                                         Departemen
-                                    </a>
+                                    </a> -->
 
                                     <a class="dropdown-item {{ request()->is(['cabang']) ? 'active' : '' }}"
                                         href="/cabang">
                                         Kantor Cabang
                                     </a>
-                                    <a class="dropdown-item {{ request()->is(['cuti']) ? 'active' : '' }}" href="/cuti">
+                                    <!-- <a class="dropdown-item {{ request()->is(['cuti']) ? 'active' : '' }}" href="/cuti">
                                         Cuti
-                                    </a>
+                                    </a> -->
                                 @endrole
                             </div>
                         </div>

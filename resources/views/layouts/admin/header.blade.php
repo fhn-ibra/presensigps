@@ -28,10 +28,10 @@
                             d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
                     </svg>
                 </a>
-                <div class="nav-item dropdown d-none d-md-flex me-3">
+                <!-- <div class="nav-item dropdown d-none d-md-flex me-3">
                     <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1"
                         aria-label="Show notifications">
-                        <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+                        <!-- Download SVG icon from http://tabler-icons.io/i/bell 
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -60,7 +60,7 @@
                                         </div>
                                         <div class="col-auto">
                                             <a href="#" class="list-group-item-actions">
-                                                <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                                                <!-- Download SVG icon from http://tabler-icons.io/i/star
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted"
                                                     width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
                                                     stroke="currentColor" fill="none" stroke-linecap="round"
@@ -84,7 +84,7 @@
                                         </div>
                                         <div class="col-auto">
                                             <a href="#" class="list-group-item-actions show">
-                                                <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                                                <!-- Download SVG icon from http://tabler-icons.io/i/star 
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon text-yellow"
                                                     width="24" height="24" viewBox="0 0 24 24"
                                                     stroke-width="2" stroke="currentColor" fill="none"
@@ -108,7 +108,7 @@
                                         </div>
                                         <div class="col-auto">
                                             <a href="#" class="list-group-item-actions">
-                                                <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                                                <!-- Download SVG icon from http://tabler-icons.io/i/star 
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted"
                                                     width="24" height="24" viewBox="0 0 24 24"
                                                     stroke-width="2" stroke="currentColor" fill="none"
@@ -133,7 +133,7 @@
                                         </div>
                                         <div class="col-auto">
                                             <a href="#" class="list-group-item-actions">
-                                                <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                                                <!-- Download SVG icon from http://tabler-icons.io/i/star -
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted"
                                                     width="24" height="24" viewBox="0 0 24 24"
                                                     stroke-width="2" stroke="currentColor" fill="none"
@@ -149,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown"
@@ -163,7 +163,6 @@
                     </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <a href="./settings.html" class="dropdown-item">Settings</a>
                     <a href="/proseslogoutadmin" class="dropdown-item">Logout</a>
                 </div>
             </div>
