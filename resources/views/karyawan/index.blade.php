@@ -7,7 +7,7 @@
                     <!-- Page pre-title -->
 
                     <h2 class="page-title">
-                        Data Karyawan
+                        Data Siswa
                     </h2>
                 </div>
 
@@ -103,7 +103,7 @@
                                                             <path d="M21 21l-6 -6"></path>
                                                         </svg>
                                                         Cari
-                                                    </button>
+                                                    </button>        
                                                 </div>
                                             </div>
                                         </div>
@@ -116,12 +116,12 @@
                                         <thead>
                                             <tr>
                                                 <th>No</th>
-                                                <th>NIK</th>
+                                                <th>NIS</th>
                                                 <th>Nama</th>
-                                                <th>Jabatan</th>
-                                                <th>No. HP</th>
-                                                <th>Foto</th>
-                                                <th>Departemen</th>
+                                                <th>Kelas</th>
+                                                <th>Nama Perusahaan</th>
+                                                <th>Guru Pembingbing</th>
+                                                <th>No HP</th>
                                                 <th>Cabang</th>
                                                 <th>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -161,6 +161,7 @@
                                                     $path = Storage::url('uploads/karyawan/' . $d->foto);
                                                 @endphp
                                                 <tr>
+                                                    {{-- TODO: Ubah Kolom Sesuai Line 119 --}}
                                                     <td>{{ $loop->iteration + $karyawan->firstItem() - 1 }}</td>
                                                     <td>{{ $d->nik }}</td>
                                                     <td>{{ $d->nama_lengkap }}</td>

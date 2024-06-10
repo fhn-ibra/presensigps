@@ -249,7 +249,7 @@
                                 @role('administrator|admin departemen', 'user')
                                     <a class="dropdown-item {{ request()->is(['karyawan']) ? 'active' : '' }}"
                                         href="/karyawan">
-                                        Karyawan
+                                        Siswa
                                     </a>
                                 @endrole
                                 @role('administrator', 'user')
@@ -270,7 +270,7 @@
                         </div>
                     </div>
                 </li>
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link {{ request()->is('presensi/monitoring') ? 'active' : '' }}"
                         href="/presensi/monitoring">
                         <span class="nav-link-icon d-md-none d-lg-inline-block">
@@ -294,7 +294,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link {{ request()->is('presensi/izinsakit') ? 'active' : '' }}"
                         href="/presensi/izinsakit">
                         <span class="nav-link-icon d-md-none d-lg-inline-block">
