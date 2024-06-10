@@ -217,17 +217,46 @@
 
 <head>
 
-<body>
+<body>  
+    <form action="/proseslogin" method="POST">
+                    @csrf
     <section class="container forms">
         <div class="form login">
             <div class="form-content">
                 <header>Login Peminatan</header>
 
-               
+                <div class="form-group boxed">
+                        <div class="input-wrapper">
+                            <input type="text" name="nik" class="form-control" id="nik" placeholder="NIK">
+                            <i class="clear-input">
+                                <ion-icon name="close-circle"></ion-icon>
+                            </i>
+                        </div>
+                    </div>
+
+                    <div class="form-group boxed">
+                        <div class="input-wrapper">
+                            <input type="password" class="form-control" id="password" name="password"
+                                placeholder="Password">
+                            <div class="icon-right" style="position: absolute; right:8px; top:10px">
+                                <ion-icon name="eye-off-outline" id="show_hide_password"
+                                    style="font-size: 1.5rem"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-links mt-2">
+                        <div><a href="page-forgot-password.html" class="text-muted">Forgot Password?</a></div>
+                    </div>
+
+                    <div class="form-button-group">
+                        <button type="submit" class="btn btn-success btn-block btn-lg">Log in</button>
+                    </div>
+
 
             </div>
 
-
+</form>
 
             <div class="media-options">
                 <a href="/auth/google" class="field google">
