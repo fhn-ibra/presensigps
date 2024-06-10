@@ -7,7 +7,7 @@
                 <!-- Page pre-title -->
 
                 <h2 class="page-title">
-                    Data Cabang
+                    Data Perusahaan
                 </h2>
             </div>
 

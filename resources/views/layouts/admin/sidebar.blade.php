@@ -260,7 +260,7 @@
 
                                     <a class="dropdown-item {{ request()->is(['cabang']) ? 'active' : '' }}"
                                         href="/cabang">
-                                        Kantor Cabang
+                                        Perusahaan
                                     </a>
                                     <!-- <a class="dropdown-item {{ request()->is(['cuti']) ? 'active' : '' }}" href="/cuti">
                                         Cuti

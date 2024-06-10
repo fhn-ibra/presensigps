@@ -60,9 +60,9 @@
                                     <div class="mb-2">
                                         <label class="form-label">
                                             Password
-                                            <span class="form-label-description">
+                                            <!-- <span class="form-label-description">
                                                 <a href="./forgot-password.html">I forgot password</a>
-                                            </span>
+                                            </span> -->
                                         </label>
                                         <div class="input-group input-group-flat">
                                             <input type="password" name="password" class="form-control" placeholder="Your password" autocomplete="off">
@@ -93,9 +93,9 @@
 
                     </div>
                 </div>
-                <div class="col-lg d-none d-lg-block">
+                <!-- <div class="col-lg d-none d-lg-block">
                     <img src="{{ asset('tabler/static/illustrations/undraw_secure_login_pdn4.svg') }}" height="300" class="d-block mx-auto" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
