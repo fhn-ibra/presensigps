@@ -270,7 +270,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link {{ request()->is('presensi/monitoring') ? 'active' : '' }}"
                         href="/presensi/monitoring">
                         <span class="nav-link-icon d-md-none d-lg-inline-block">
@@ -317,8 +317,8 @@
                             Data Izin / Sakit
                         </span>
                     </a>
-                </li>
-                <li class="nav-item dropdown">
+                </li> --}}
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {{ request()->is(['presensi/laporan', 'presensi/rekap']) ? 'show' : '' }}"
                         href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="false" role="button"
                         aria-expanded="{{ request()->is(['presensi/laporan', 'presensi/rekap']) ? 'true' : '' }}">
@@ -354,9 +354,9 @@
                             </div>
                         </div>
                     </div>
-                </li>
+                </li> --}}
                 @role('administrator', 'user')
-                    <li class="nav-item dropdown">
+                    {{-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle {{ request()->is(['konfigurasi', 'konfigurasi/*']) ? 'show' : '' }}"
                             href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="false" role="button"
                             aria-expanded=" {{ request()->is(['konfigurasi', 'konfigurasi/*']) ? 'true' : '' }}">
@@ -399,7 +399,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </li> --}}
                 @endrole
             </ul>
         </div>
