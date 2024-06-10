@@ -249,7 +249,7 @@
                                 @role('administrator|admin departemen', 'user')
                                     <a class="dropdown-item {{ request()->is(['karyawan']) ? 'active' : '' }}"
                                         href="/karyawan">
-                                        Karyawan
+                                        Siswa
                                     </a>
                                 @endrole
                                 @role('administrator', 'user')
