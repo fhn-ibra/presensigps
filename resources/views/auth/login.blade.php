@@ -233,7 +233,7 @@
             <div class="media-options">
                 <a href="/auth/google" class="field google">
                     <img src="/../img/google.png" alt="" class="google-img">
-                    <span><b>Login Memakai Akun Sekolah !</b></span>
+                    <span><b>Login Memakai Akun Sekolahhh!</b></span>
                 </a>
             </div>
 
